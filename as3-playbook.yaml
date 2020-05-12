@@ -19,7 +19,7 @@
       user: "{{ big_user }}"
       password: "{{ big_pass }}"
       method: "{{ uri_method }}"
-      body: "{{ lookup('file','as3-declaration.json') }}"
+      body: "{{ lookup('file','as3-declaration2.json') }}"
       force_basic_auth: yes
       status_code: 200
       body_format: json
