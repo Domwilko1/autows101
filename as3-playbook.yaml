@@ -24,4 +24,8 @@
       status_code: 200
       body_format: json
       validate_certs: no 
+    register: as3_response
+  - name: AS3 RESPONSE OUTPUT
+    debug:
+      msg: "{{ as3_response }}"      
 ...
